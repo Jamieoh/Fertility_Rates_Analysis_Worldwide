@@ -24,4 +24,7 @@ Our four main visualtions are as follows:
 
 4. The observed relationship between fertility & per capita income & education
 
-To execute these visualizations, we used a programming language known as R. To create the best visualizations, we utilized many different r packages such as; scales; ggplot2; reshape; dplyr and many more. After exploring and creating the visualizations we then uploaded them to a HTML page rendered from a RMarkdown script. 
+## Data Visualisation Techniques
+- To execute these visualizations, we used R Studio. 
+- To create the best visualizations, we utilized many different r packages such as; tidyverse; ggplot2; reshape; dplyr and many more. 
+- After exploring and creating the visualizations we then uploaded them to a HTML page rendered from a RMarkdown script. 
