@@ -26,5 +26,5 @@ Our four main visualtions are as follows:
 
 ## Data Visualisation Techniques
 - To execute these visualizations, we used R Studio. 
-- To create the best visualizations, we utilized many different r packages such as; tidyverse; ggplot2; reshape; dplyr and many more. 
+- To create the best visualizations, we utilized many different r packages such as; tidyverse; ggplot2; reshape; and dplyr.
 - After exploring and creating the visualizations we then uploaded them to a HTML page rendered from a RMarkdown script. 
