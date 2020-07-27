@@ -1,12 +1,12 @@
 # Fertility Rate Analysis Worldwide
 
 ---
-title: 'CT5100 Data Visualisation: Assignment 2'
+title: CT5100 Data Visualisation: Fertility Rate Analysis Worldwide'
 author: 
-- "Kevin Derrane, 12409118."
-- "Robbie Deegan, 17232577."
-- "Jamie O'Halloran, 12458152."
-date: "16/02/2018"
+- Kevin Derrane, 12409118.
+- Robbie Deegan, 17232577.
+- Jamie O'Halloran, 12458152.
+date: 16/02/2018
 output: html_document
 ---
 
@@ -27,7 +27,7 @@ countries <- separate(decades, Years, c("Year", "End_Year"))
 regions <- read.csv('regions.csv',header = TRUE, stringsAsFactors = FALSE)
 colnames(regions) <- c("Regions", "Years", "Variant", "Value")
 region <- separate(regions, Years, c("Year", "End_Year"))
-#4
+# 4
 rates <- read.csv('worldrates.csv',header = TRUE, stringsAsFactors = FALSE)
 ```
 
@@ -49,7 +49,7 @@ Our four main visualtions are as follows:
 
 To execute these visualizations, we used a programming language known as R. To create the best visualizations, we utilized many different r packages such as; scales; ggplot2; reshape; dplyr and many more. After exploring and creating the visualizations we then uploaded them to a HTML page rendered from a RMarkdown script. 
 
-##1. Percentage increase in world population.
+## 1. Percentage increase in world population.
 
 The dataset below was obtained from the UN data source:
 
@@ -103,7 +103,7 @@ Plots 1.1 & 1.2 show the increase in the worlds population and also the decrease
 
 
 
-##2. Changing fertility rates from 1950 to the present for selected countries of the world. 
+## 2. Changing fertility rates from 1950 to the present for selected countries of the world. 
 
 The datasets below were obtained from the World Bank & UN data source:
 
