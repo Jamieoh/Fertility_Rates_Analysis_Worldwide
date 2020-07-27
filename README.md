@@ -27,3 +27,12 @@ Our four main visualtions are as follows:
 - To execute these visualizations, we used R Studio. 
 - To create the best visualizations, we utilized many different r packages such as; tidyverse; ggplot2; reshape; and dplyr.
 - After exploring and creating the visualizations we then uploaded them to a HTML page rendered from a RMarkdown script. 
+
+## Datasets Analysed
+The datasets below were obtained from the World Bank & UN data source:
+1. GDP <http://data.un.org/Data.aspx?q=world+population&d=PopDiv&f=variableID%3a12%3bcrID%3a900>.
+2. Fertility Rates <http://data.un.org/Data.aspx?q=fertility%20rates&d=PopDiv&f=variableID%3A54>.
+3. World Population <http://data.un.org/Data.aspx?q=world+population&d=PopDiv&f=variableID%3a12%3bcrID%3a900>.
+4. GDP <https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?end=2016&start=1970&view=chart>.
+5. Literacy Rates <https://data.worldbank.org/indicator/SE.ADT.LITR.ZS>.
+6. Fertility Rates <https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?end=2016&start=1970>.
