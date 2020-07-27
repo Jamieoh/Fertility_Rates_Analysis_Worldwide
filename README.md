@@ -1,8 +1,7 @@
 # Fertility Rate Analysis Worldwide
 
 ---
-CT5100 Data Visualisation: Fertility Rate Analysis Worldwide
-authors: 
+### authors: 
 - Jamie O'Halloran, 12458152.
 - Kevin Derrane, 12409118.
 - Robbie Deegan, 17232577.
