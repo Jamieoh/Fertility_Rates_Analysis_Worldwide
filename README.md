@@ -75,7 +75,7 @@ p1.1 +  geom_point(na.rm = TRUE, alpha=0.5, color = "blue") +
   scale_y_continuous(name="Total population both sexes (thousands): ", labels = comma) +
   theme(axis.line = element_line(colour = "black", size = 0.25), plot.title = element_text(size = 12, face = "bold"), axis.title.x=element_blank(), axis.text.x = element_text(size=8, angle = 90, hjust=1, vjust = .5), title = element_text(size=8), legend.key = element_rect(fill = NA, colour = NA, size = 0.25)) 
 ```
-
+![Images/World_Pop_Growth_1950toPresent](Images/World_Pop_Growth_1950toPresent.PNG)
 
 Plot 1.2 below illustrates the world population percentage growth versus the previous year since 1950. The graph shows the graudal downward trend in the percentage increase compared to the previous year.  
 
@@ -96,11 +96,9 @@ df %>% mutate(Previous_Year = lag(Population, 1), Change = Previous_Year - Popul
   scale_x_continuous(lim=c(1950,2018), breaks=seq(1950,2018,2)) +
   theme(axis.line = element_line(colour = "black", size = 0.25), plot.title = element_text(size = 12, face = "bold"), axis.title.x=element_blank(), axis.text.x = element_text(size=8, angle = 90, hjust=1, vjust = .5), title = element_text(size=8), legend.key = element_rect(fill = NA, colour = NA, size = 0.25))  
 ```
-
+![Images/ActualvsAverage_perc_change_worldpop_vs_previous year](Images/ActualvsAverage_perc_change_worldpop_vs_previous year.PNG)
 
 Plots 1.1 & 1.2 show the increase in the worlds population and also the decrease in the percentage increase compared to the previous year. This shows that as the world is getting closer to 9 billion people, it seems to be stabilising. This confirms part of Matt Ridley's hypothesis. 
-
-
 
 ## 2. Changing fertility rates from 1950 to the present for selected countries of the world. 
 
@@ -115,6 +113,7 @@ These datasets were then edited online prior to downloading.
 ```{r ratesss}
 head(countries)
 ```
+![Images/head_rates](Images/head_rates.PNG)
 
 ## Plots:
 
@@ -135,11 +134,11 @@ p2 + geom_line(alpha = 0.5, size = 2 ) +
   theme(panel.grid.major = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black", size = 0.25), plot.title = element_text(size = 12, face = "bold"), 
         axis.title.x=element_blank(), axis.text.x = element_text(size=8, angle = 90, hjust=1, vjust = .5), title = element_text(size=8), legend.key = element_rect(fill = NA, colour = NA, size = 0.25)) 
 ```
+![Images/Changing_fertility_rates_from_1950-2020](Images/Changing_fertility_rates_from_1950-2020.PNG)
 
 Originally, Brazil had a higher fertility rate than India, but from 1960 onwards Brazil's fertility rate was less than India's. This is important because Brazil is seen as a newly developed country, while India is seen as a developing country.
 
 This graph highlights the downward trend of wordlwide fertility rates. It shows this rate getting closer to the 2.1 replacement rate. 
-
 
 ##3. Regional view of the above visualisation 
 
@@ -154,6 +153,7 @@ These datasets were then edited online prior to downloading.
 ```{r rates1}
 head(region)
 ```
+![Images/head_region(Images/head_region.PNG)
 
 ## Plots:
 
@@ -173,6 +173,7 @@ p3 + geom_line( alpha = 0.5, size = 2) +
   theme(panel.grid.major = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black", size = 0.25), plot.title = element_text(size = 12, face = "bold"), 
         axis.title.x=element_blank(), axis.text.x = element_text(size=8, angle = 90, hjust=1, vjust = .5), title = element_text(size=8), legend.key = element_rect(fill = NA, colour = NA, size = 0.25)) 
 ```
+![Images/Regional_view_of 50yr_change_fertility_rates(Images/Regional_view_of 50yr_change_fertility_rates.PNG)
 
 This graph highlights the downward trend of regional fertility rates. It shows this rate getting closer to the 2.1 replacement rate. 
 
@@ -192,6 +193,7 @@ These datasets were then combined and edited within Microsoft Excel.
 ```{r rates}
 head(rates)
 ```
+![Images/head_rates(Images/head_rates.PNG)
 
 ## Plots:
 
@@ -235,7 +237,7 @@ p4.3 <- ggplot(rates, aes(x=Year, y=Literacy.Rate)) +
 # plot the graphs together using the multiplot function. 
 multiplot(p4.1, p4.2, p4.3, cols=2)
 ```
-
+![Images/1975_2015_Analysis(Images/1975_2015_Analysis.PNG)
 
 The above graphs show a interesting relationship between fertility & per capita income & education from 1975-2015. As literacy rates and GDP rates rise worldwide fertility rates decrease. You can definetly see a clear correaltion between the 3 graphs. Graph 4.2 and 4.3 are almost mirrors of graph 4.1. You could almost overlay graph 4.2 onto 4.3. This goes with the trend of people being more educated having less kids and also people being richer having access to better health care and better education. 
 
