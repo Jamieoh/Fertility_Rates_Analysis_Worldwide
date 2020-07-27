@@ -56,6 +56,7 @@ The dataset below was obtained from the UN data source:
 ```{r cars}
 head(world_pop)
 ```
+![head_world_pop](head_world_pop.png)
 
 ## Plots:
 
