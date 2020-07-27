@@ -247,6 +247,6 @@ The above graphs show a interesting relationship between fertility & per capita 
 In conclusion if we take all the above graphs we can see evidence that supports Matt Ridley’s hypothesis. In grpahs 2, 3 & 4.1 we can see the worlds fertility rates are nearling Matt's replacement rate of 2.1 births per women. 
 Combine this with graphs 1.1 and 1.1 with the increase in population getting closer to the proposed 9 billion cut off point and followed by the decrease in the percentage increase compared to the previous year we have alot of evidence in favour of the hypothesis. 
 Finally looking at the last three graphs 4.1, 4.2 and 4.3 we see the downward trend in worldwide fertility rates correlationg with the upward trend in GDP per capita and literacy rates worldwide. This suggest the world is getting richer and people are getting more education which again is leading the the replacemnt fertility rate of 2.1.
-We can safely say that the above visualtions are appropaite in supporting Matt Ridley’s hypothesis.
+We can safely say that the above visualtions are appropaite in supporting Matt Ridley’s hypothesis. 
 
 
