@@ -1,13 +1,11 @@
 # Fertility Rate Analysis Worldwide
 
 ---
-title: CT5100 Data Visualisation: Fertility Rate Analysis Worldwide'
+CT5100 Data Visualisation: Fertility Rate Analysis Worldwide'
 author: 
 - Kevin Derrane, 12409118.
 - Robbie Deegan, 17232577.
 - Jamie O'Halloran, 12458152.
-date: 16/02/2018
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
